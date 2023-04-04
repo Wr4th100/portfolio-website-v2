@@ -63,7 +63,7 @@ const Contact = (props: Props) => {
           from_name: form.name,
           to_name: "Roshan",
           from_email: form.email,
-          to_email: "emails@roshanjagadish.tech",
+          to_email: "roshan10.rj@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
