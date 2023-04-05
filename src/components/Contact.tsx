@@ -159,11 +159,7 @@ const Contact = (props: Props) => {
               <LazySpline scene="https://prod.spline.design/zKWHXgAeefS7PDX5/scene.splinecode" />
             </Suspense>
           </motion.div>
-        ) : <motion.div className="h-[300px]">
-          <Suspense fallback={<LoadingScreen />}>
-          <LazySpline scene="https://prod.spline.design/YYLt2NPIdVVhtLXv/scene.splinecode" />
-            </Suspense>            
-          </motion.div>}
+        ) : null}
       {/* <motion.div className="h-screen sm:w-1/2 w-full">
           <Suspense fallback={<LoadingScreen />}>
             <LazySpline scene="https://prod.spline.design/zKWHXgAeefS7PDX5/scene.splinecode" />

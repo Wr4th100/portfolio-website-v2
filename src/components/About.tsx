@@ -74,7 +74,7 @@ const About = () => {
           fascination to me.
           <br />
           I am a self-taught developer and I am always looking to learn new
-          technologies. I am currently pursuing engineering in Chennai Insitute
+          technologies. I am currently pursuing Computer Science Engineering in Chennai Institute
           of Technology.
           <br />
           
@@ -120,6 +120,51 @@ const About = () => {
 
           
 
+        </div>
+        <div className={`flex ${isMobile ? "flex-col" : ""} mt-6`}>
+          
+          <motion.div
+            className={`flex items-center px-4 py-3 mx-4 rounded-3xl bg-[#242424] ${isMobile ? "py-4 my-4 flex-col" : ""}`}
+            variants={fadeIn("left", "spring", 0.9, 0.75)}
+            
+          >
+            <motion.p className={`text-[#DEAD4F] font-bold text-2xl px-2 ${isMobile ? "pb-2" : ""}`}
+            
+            > Coding Profiles </motion.p>
+            <motion.a
+              href="https://leetcode.com/roshanjagadish/"
+              className={`flex items-center px-2 text-white text-lg ${isMobile ? "py-1" : ""}`}
+              whileHover={{scale: 1.101}}
+            transition={{duration: 0.45}}
+            >
+              <p>LeetCode</p>
+            </motion.a>
+
+            <motion.a
+              href="https://hackerrank.com/roshan10_rj"
+              whileHover={{scale: 1.101}}
+            transition={{duration: 0.45}}
+            className={`flex items-center px-2 text-white text-lg ${isMobile ? "py-1" : ""}`}
+            >
+              <p>HackerRank</p>
+            </motion.a>
+            <motion.a
+              href="https://www.hackerearth.com/@roshan10.rj"
+              whileHover={{scale: 1.101}}
+            transition={{duration: 0.45}}
+            className={`flex items-center px-2 text-white text-lg ${isMobile ? "py-1" : ""}`}
+            >
+              <p>HackerEarth</p>
+            </motion.a>
+            <motion.a
+              href="https://www.codechef.com/users/roshanjagadish"
+              whileHover={{scale: 1.101}}
+            transition={{duration: 0.45}}
+            className={`flex items-center px-2 text-white text-lg ${isMobile ? "py-1" : ""}`}
+            >
+              <p>CodeChef</p>
+            </motion.a>
+          </motion.div>
         </div>
 
       </div>
