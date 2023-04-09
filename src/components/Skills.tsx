@@ -94,7 +94,12 @@ const Skills = () => {
       >
         <Suspense fallback={<div>Loading...</div>}>
           {!isMobile ? (
-            <LazySpline scene="https://prod.spline.design/1uBxKFonlgu1IJfn/scene.splinecode" />
+            // <LazySpline scene="https://prod.spline.design/1uBxKFonlgu1IJfn/scene.splinecode" />
+            <img
+              src="skills.png"
+              alt="skills"
+
+            />
           ) : (
             details.map((detail, index) => (
               <SkillCard
